@@ -1,0 +1,19 @@
+.section-faq h1{
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    color: #2c3e50;
+    padding: 80px;
+     
+ }
+ .section-faq h5{
+   
+    font-family: "Nanum Gothic", sans-serif;
+    text-align: center;
+    padding: 5px;
+    color: #FFFF;
+}
+
+
+.section-faq{
+    padding: 20px;
+}

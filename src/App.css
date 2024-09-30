@@ -16,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #87ca2f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,145 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.section-About {
+  color: #002366;
+  margin-top: 80px;
+  font-family: 'Times New Roman', serif;
+  font-weight: 500;
+
+  font-size: 20px;
+  background-color: #f5f5f5;
+
+}
+
+.section-About h1 {
+  color: #002366;
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+  padding: 60px;
+
+}
+
+.custom-font {
+  padding: 50px;
+  font-family: 'Times New Roman', serif;
+
+}
+
+.section-Galeri {
+  margin-top: 80px;
+  background-color: #f5f5f5;
+
+}
+
+.section-Galeri h1 {
+  color: #002366;
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+  padding: 60px;
+
+}
+
+.section-conservation {
+  margin-top: 80px;
+  background-color: #f5f5f5;
+
+
+}
+
+.section-conservation h1 {
+  color: #002366;
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+  padding: 60px ;
+
+}
+
+.card-group {
+  gap: 20px;
+  padding: 40px;
+
+}
+
+.section-conservation h2 {
+  color: #002366;
+  font-family: 'Times New Roman', serif;
+  padding: 60px 0px 0px;
+  font-weight: 500;
+
+}
+
+.section-conservation p {
+  color: #002366;
+  font-family: 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+.section-conservation img {
+  margin-bottom: 80px;
+}
+
+.section-donation {
+  /* padding: 60px 0px 0px; */
+  /* background-image: url("/public/background.png"); */
+  background-size: cover;
+  background-position: center;
+
+  margin-bottom: 0px;
+  background-color: #f5f5f5;
+  margin-top: 100px;
+
+
+}
+
+.section-donation h1 {
+  color: #002366;
+  font-family: 'Times New Roman', serif;
+  padding: 60px 0px 0px;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.donation-content {
+  padding: 20px;
+  padding-bottom: 80px;
+
+
+}
+
+.section-donation p {
+  color: #002366;
+  font-family: 'Times New Roman', serif;
+  font-size: 20px;
+  margin: 20px 0px 0px;
+}
+
+.form-body {
+  padding: 20px;
+  background-color: #367588;
+  margin-top: 100px;
+
+  color: white;
+  border-radius: 12px;
+
+}
+
+.section-end p {
+  text-align: center;
+  font-style: italic;
+}
+
+.section-end h5 {
+  color: #002366;
+  font-family: 'Times New Roman', serif;
+  font-size: 20px;
+  margin: 20px 0px 0px;
+  text-align: center;
+  font-weight: 600;
 }

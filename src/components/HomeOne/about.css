@@ -1,0 +1,40 @@
+.section-about {
+    background-color: #dae7f5;
+    padding-bottom: 80px;
+  }
+  
+  .section-about h1 {
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    color: #2c3e50;
+    padding: 80px;
+    
+  }
+  
+  .section-about h2 {
+    color: #34495e;
+    font-family: 'Georgia', serif;
+  }
+  
+  .section-about h5 {
+    color: #2c3e50;
+    font-family: 'Times New Roman', serif;
+    line-height: 1.6;
+  }
+  
+  .habitat-image {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .habitat-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
